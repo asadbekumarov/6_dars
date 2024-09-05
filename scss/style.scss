@@ -1,0 +1,29 @@
+@use "./bloks/header";
+@use "./bloks/hero";
+@use "./bloks/add";
+@use "./bloks/general";
+@use "./bloks/information";
+@use "./bloks/funiro";
+@use "./bloks/footer";
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+.container {
+  max-width: 1348px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}

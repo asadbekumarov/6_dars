@@ -1,0 +1,195 @@
+.general__section {
+  .general__section__content {
+    padding-top: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    .general {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        padding-bottom: 28px;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 35.42px;
+        color: black;
+      }
+      .general__list {
+        display: flex;
+        justify-content: left;
+        gap: 190px;
+        ul {
+          li {
+            max-width: 241px;
+            padding-bottom: 24px;
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25.3px;
+            color: black;
+          }
+        }
+      }
+    }
+    .product {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        padding-top: 96px;
+        padding-bottom: 28px;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 35.42px;
+        color: black;
+      }
+      .product__list {
+        display: flex;
+        justify-content: left;
+        gap: 146px;
+        ul {
+          li {
+            max-width: 241px;
+            padding-bottom: 24px;
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25.3px;
+            color: black;
+          }
+        }
+      }
+    }
+    .dimensions {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        padding-top: 96px;
+        padding-bottom: 28px;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 35.42px;
+        color: black;
+      }
+      .dimensions__list {
+        display: flex;
+        justify-content: left;
+        gap: 270px;
+        ul {
+          li {
+            max-width: 241px;
+            padding-bottom: 24px;
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25.3px;
+            color: black;
+          }
+        }
+      }
+    }
+    .warranty {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        padding-top: 96px;
+        padding-bottom: 28px;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 35.42px;
+        color: black;
+      }
+      .warranty__list {
+        display: flex;
+        justify-content: left;
+        gap: 140px;
+        .first__line {
+          li:nth-child(1) {
+            padding-bottom: 63px;
+          }
+          li:nth-child(2) {
+            padding-bottom: 109px;
+          }
+          li:nth-child(3) {
+            padding-bottom: 120px;
+          }
+          li:nth-child(4) {
+            padding-bottom: 159px;
+          }
+          li:nth-child(5) {
+            padding-bottom: 124px;
+          }
+        }
+        .second__line {
+          li:nth-child(1) {
+            padding-bottom: 34px;
+          }
+          li:nth-child(2) {
+            padding-bottom: 35px;
+          }
+          li:nth-child(3) {
+            padding-bottom: 94px;
+          }
+          li:nth-child(4) {
+            padding-bottom: 34px;
+          }
+          li:nth-child(5) {
+            padding-bottom: 60px;
+          }
+          button:nth-child(6) {
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #fff;
+            background-color: #b88e2f;
+            padding: 17px 48px;
+            border: none;
+          }
+        }
+        .third__line {
+          li:nth-child(1) {
+            padding-bottom: 40px;
+          }
+          li:nth-child(2) {
+            padding-bottom: 42px;
+          }
+          li:nth-child(3) {
+            padding-bottom: 37px;
+          }
+          li:nth-child(4) {
+            padding-bottom: 39px;
+          }
+          li:nth-child(5) {
+            padding-bottom: 47px;
+          }
+          button:nth-child(6) {
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #fff;
+            background-color: #b88e2f;
+            padding: 17px 48px;
+            border: none;
+          }
+        }
+        ul {
+          li {
+            max-width: 241px;
+            padding-bottom: 24px;
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25.3px;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

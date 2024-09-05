@@ -1,0 +1,52 @@
+.hero__section {
+  height: 50vh;
+  background-image: url(../../images/hero-img/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  .hero__section__content {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      position: absolute;
+      width: 77px;
+      height: 77px;
+      top: 150px;
+      left: 900px;
+    }
+    .add__title {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      span {
+        position: absolute;
+        top: 260px;
+        left: 867px;
+        display: flex;
+        align-items: center;
+        p {
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 24px;
+          color: black;
+        }
+        a {
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          color: black;
+        }
+      }
+    }
+  }
+}

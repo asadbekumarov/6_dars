@@ -1,0 +1,83 @@
+.add__section {
+  .add__section__content {
+    margin-top: 34px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #e8e8e8;
+    .add__text {
+      h5 {
+        padding-bottom: 21px;
+        max-width: 223px;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 35.42px;
+        color: black;
+      }
+      a {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #727272;
+        text-decoration: underline;
+      }
+    }
+    .add__product {
+      display: flex;
+      gap: 47px;
+      h3 {
+        padding-bottom: 7px;
+        padding-top: 18px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30.36px;
+        color: black;
+      }
+      h2 {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        color: black;
+      }
+      .price {
+        padding-top: 7px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+      }
+    }
+    .add__title {
+      h2 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30.36px;
+        color: #000;
+      }
+      button {
+        margin-top: 20px;
+        padding: 15px 75px 18px;
+        font-family: Poppins;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17.71px;
+        color: #fff;
+        background-color: #b88e2f;
+        border: none;
+        display: flex;
+        gap: 42px;
+        cursor: pointer;
+      }
+      button:hover {
+        transition: all 0.2s linear;
+        background-color: #e1b54e;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+header {
+  .header__section__content {
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      display: flex;
+      gap: 75px;
+      li {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: black;
+        cursor: pointer;
+      }
+      li:hover {
+        color: #b88e2f;
+        transition: all 0.2s linear;
+      }
+    }
+    .icon {
+      display: flex;
+      gap: 45px;
+      cursor: pointer;
+      svg:hover {
+        scale: 1.1;
+        transition: all 0.2s linear;
+      }
+    }
+  }
+}
